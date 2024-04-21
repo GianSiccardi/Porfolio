@@ -1,0 +1,23 @@
+
+
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+  
+    50% {
+      transform: translateY(-70px);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+.animate-bounce {
+  animation-name: bounce;
+  animation-duration: 8s; /* Duración de la animación: 1 segundo */
+  animation-iteration-count: infinite; /* Repetir la animación indefinidamente */
+  animation-timing-function: ease-in-out; /* Función de temporización */
+}
+  

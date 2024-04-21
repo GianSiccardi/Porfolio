@@ -1,18 +1,33 @@
+
+'use client'
+
 import Link from "next/link";
+import ModalCarussel from "./modal-carrusel";
+import { useState } from "react";
 
 interface PortfolioBoxProps {
     data: {
         id: number,
         title: string
-        image: string
+        images: string[]
         urlGithub: string
         urlDemo: string
+        description?:string
     }
 }
 
 const PortfolioBox = (props: PortfolioBoxProps) => {
     const { data } = props
-    const { id, title, image, urlDemo, urlGithub } = data
+    const { id, title, images, urlDemo,description, urlGithub } = data
+
+    const [modalOpen, setModalOpen] = useState(false);
+    const handleOpenModal = () => {
+        setModalOpen(true);
+    };
+
+    const handleCloseModal = () => {
+        setModalOpen(false);
+    };
 
     return (
         <div
@@ -20,24 +35,34 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
             className="p-4 border border-teal-50 rounded-xl"
         >
             <h3 className="mb-4 text-xl">{title}</h3>
-            
+<div>
+    {description}
+</div>
 
-            <div className="flex gap-5 mt-5">
+            <div className="flex gap-1 mt-8">
                 <Link
                     href={urlGithub}
                     target="_blank"
                     className="p-2 transition duration-150 rounded-lg bg-slate-500 hover:bg-slate-500/80"
                 >
-                    Github
+                    Gitback
                 </Link>
-
                 <Link
                     href={urlDemo}
                     target="_blank"
-                    className="p-2 transition duration-150 rounded-lg bg-secondary hover:bg-secondary/80"
+                    className="p-2 transition duration-150 rounded-lg bg-slate-500 hover:bg-slate-500/80"
                 >
-                    Live demo
+                    Gitfront
                 </Link>
+                <p
+                    onClick={handleOpenModal}
+                    className="p-2 transition duration-150 rounded-lg text-black bg-secondary hover:bg-secondary/80"
+                    style={{ color: 'black !important', cursor: 'pointer' }}
+                >
+                  
+                     demo
+                </p>
+                <ModalCarussel isOpen={modalOpen} onClose={handleCloseModal} images={images} />
             </div>
         </div>
     );
