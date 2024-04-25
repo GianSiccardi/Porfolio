@@ -43,7 +43,9 @@ const Introduction = () => {
         />
       </h1>
       <p className="mx-auto mb-2 text-xl md:text-xl md:mx-0 md:mb-8">
-        Como desarrollador frontend y creador de contenido, me dedico a combinar diseño y funcionalidad para crear experiencias digitales impactantes y accesibles.
+      Hola! Soy Gianfranco , de Mendoza Argentina!
+Actualmente estoy cursando la carrera de Analista Programador , pero tengo conocimiento en el sector ,ya que he realizado una serie de cursos de programacion.Podran ver mas detallada mi trayectoria y mis proyectos en este portafolio que he armado!.
+Mi objetivo es especializarme en el lenguaje de java , pero el día de mañana me gustaría liderar equipos para crear soluciones informáticas que aporten a la sociedad.
       </p>
       <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
         <a href="/cvGian.pdf" target="_blank" rel="noopener noreferrer" className="px-3 py-2 my-2 transition-all border-2 cursor-pointer text-md w-fit text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary">

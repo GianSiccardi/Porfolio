@@ -13,12 +13,13 @@ interface PortfolioBoxProps {
         urlGithub: string
         urlDemo: string
         description?:string
+        description2?:string
     }
 }
 
 const PortfolioBox = (props: PortfolioBoxProps) => {
     const { data } = props
-    const { id, title, images, urlDemo,description, urlGithub } = data
+    const { id, title, images, urlDemo,description2,description, urlGithub } = data
 
     const [modalOpen, setModalOpen] = useState(false);
     const handleOpenModal = () => {
@@ -36,7 +37,7 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
         >
             <h3 className="mb-4 text-xl">{title}</h3>
 <div>
-    {description}
+    {description2}
 </div>
 
             <div className="flex gap-1 mt-8">
@@ -62,7 +63,7 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
                   
                      demo
                 </p>
-                <ModalCarussel isOpen={modalOpen} onClose={handleCloseModal} images={images} />
+                <ModalCarussel isOpen={modalOpen} onClose={handleCloseModal} images={images} description={description}/>
             </div>
         </div>
     );

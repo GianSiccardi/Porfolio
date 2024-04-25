@@ -17,7 +17,7 @@ const ServicesPage=()=>{
                     <span className="font-bold text-secondary"> 
                     servicios.</span></h1>
                     <p className="mb-3 text-xl text-gray-300">
-                    Con sólidos conocimientos en Java, Spring Security, Hibernate, JUnit y APIs RESTful, mi area es en el desarrollo backend. Además, cuento con habilidades intermedias en React, MySQL y Docker,
+                    Con sólidos conocimientos en Java, Spring Security, Hibernate,APIs RESTful, y algo JUnit, mi area es en el desarrollo backend. Además, cuento con habilidades intermedias en React, MySQL y Docker,
                      lo que me permite contribuir de manera integral en proyectos de desarrollo web.
                        </p>
                  
