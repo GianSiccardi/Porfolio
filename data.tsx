@@ -62,7 +62,7 @@ export const dataAboutPage = [
 
     {
         id: 1,
-        title: "Universidad Champgnat",
+        title: "Universidad Champagnat",
         subtitle: "Ser profesional",
         description: "Actualmente, estoy cursando el primer año de la carrera de Analista. Tomé esta decisión porque deseaba mejorar y alcanzar mi mejor versión profesional. Entendí que, para tener un impacto positivo en la sociedad en el futuro, necesitaba mejorar en mi profesión. Además, aspirando a liderar grandes equipos, comprendí que un buen líder debe dar ejemplo a través de su comportamiento y conocimiento.",
         date: "Mar 2024",
@@ -100,7 +100,7 @@ export const dataCounter = [
         id: 0,
         endCounter: "Egg",
         text: "FullStack.",
-        pdfLink: "/fotomia.jpeg"
+        pdfLink: "/egg.jpeg"
 
     },
     {
@@ -129,28 +129,28 @@ export const serviceData = [
     {
         icon: <Flower />,
         title: "Java",
-        description: "Conocimientos solidos de POO , mapeos y anotaciones con hibernate ,spring security y JUnit,ApisRestFul y MicroServicio "
+        description: "Conocimientos en POO, mapeos y anotaciones con Hibernate, Spring Security y JUnit, APIs RESTful y MicroServicio."
     },
     {
         icon: <Pencil />,
         title: "Diseño web",
-        description: "No es mi especialidad ,pero lo que mas use para realizar interfaces dinamicas es react ,y un poco de angular",
+        description: "Habilidades para realizar interfaces dinámicas con React y Angular.",
     },
     {
         icon: <Computer />,
         title: "Base de Datos",
-        description: "Conocimiento sobre el motor Mysql y consultas intermedias para realizar busquedas ",
+        description: "Conocimiento sobre el motor Mysql y consultas intermedias para realizar búsquedas. ",
     },
     {
         icon: <Book />,
         title: "Docker",
-        description: "Esta es una habilidad en la que quiero mejorar , minimo que se hacer es dockerizar una app",
+        description: "Habilidades para dockerizar una app.",
        
     },
     {
         icon: <Rocket />,
         title: "Metodologias agiles",
-        description: "En los cursos que he realizado trabaje con metedologías ágiles como Scrum o Kanban   ",
+        description: "En los cursos realizados trabajé con metodologías ágiles como Scrum y Kanban.   ",
     },
 ];
 
@@ -161,28 +161,27 @@ export const dataPortfolio = [
         images: [ "cap1.jpg", "cap2.jpg", "cap3.jpg", "cap4.jpg", "cap5.jpg",],
         urlGithub: "https://github.com/GianSiccardi/ProyectoExamenAngularJava.git",
         urlDemo: "https://github.com/GianSiccardi/sistema-examen-front.git",
-        description: "Este proyecto lo hice cuando estaba viendo que framework front queria aprender para poder complementarlo con java.Solidifique mis bases en la creacion de una API , es sencilla sin excepciones pero el armado esta correcto.Es una sistema donde tengo usuarios normales y administrador , este ultimo puede crear el examen , en que categoria entra , las preguntas y respuestas correctas,actualizar y eliminar todas estas funciones.El usuario comun puede seleccionar el examen que este habilitado y responderlo en tiempo real",
-        description2:"Es un proyecto con java y angular,para crear examanes y responderlos  en tiempo real"
-   
+        description: "Este proyecto lo hice cuando estaba decidiendo qué framework front-end quería aprender para complementarlo con Java. Solidifiqué mis bases en la creación de una API. Es sencilla y no tiene excepciones, pero el armado está correcto. Es un sistema donde tengo usuarios normales y administradores; este último puede crear el examen, especificar la categoría, las preguntas y las respuestas correctas, además de actualizar y eliminar todas estas funciones. El usuario común puede seleccionar el exámen que esté habilitado y responderlo en tiempo real."
+        ,description2:"Proyecto con java y angular para crear exámenes y responderlos en tiempo real."
     },
     {
         id: 2,
         title: "Sistema para Bodega",
-        images: ["cap1Bodega.jpg","cap2Bodega.jpg","cap3Bodega.jpg","cap5Bodega.jpg"],
+        images: ["cap1Bodega.jpg","cap2Bodega.jpg","cap3Bodega.jpg","bodega4.jpg","Bodega5.jpg"],
         urlGithub: "https://github.com/Tom09t/BodegaEscencia.git",
         urlDemo: "https://github.com/Tom09t/BodegaEscenciaReact.git",
-        description: "Este es mi proyecto mas ambicioso , y el que sera utilizado en el mundo real ,es el control de stock y ventas de una bodega.A la bodega ingresa un grupo que viene con una empresa de turismo, y la bodega tambien cuenta con 2 negocios , el restaurante y la vinoteca ,el sistema se encarga de controlar las ventas de cada grupo en cada negocio y luego saca un reporte del dia.Hay un usuario admin , que se encarga de cargar stock ,eliminar ventas, cargar empresa.Al dia de hoy sigue en desarrollo , pero se puede apreciar lo robusta que es la aplicacion ya que cuenta con algoritmos complejos ,validaciones y seguridad , el front esta hecho en react ,lo que me permitio poder decir que puedo manejarme bastante comodo con este framework  .La experiencia que adiquiri fue sobre la imp ortancia del trabajo en equipo , de saber comunicar lo que quiero o lo que me disgusta.Tambien a dialogar con el cliente , saber lo que quiere y si es eso lo que necesita",
-        description2:"Primer proyecto como trabajo real,que controla el stock y ventas de una bodega"
+        description:"Este es mi proyecto más ambicioso y el que será utilizado en el mundo real: es el control de stock y ventas de una bodega. A la bodega ingresa un grupo que viene con una empresa de turismo, y la bodega también cuenta con dos negocios: el restaurante y la vinoteca. El sistema se encarga de controlar las ventas de cada grupo en cada negocio y luego genera un reporte del día. Hay un usuario administrador que se encarga de cargar stock, eliminar ventas y agregar empresas. A día de hoy, sigue en desarrollo, pero se puede apreciar lo robusta que es la aplicación, ya que cuenta con algoritmos complejos, validaciones y seguridad. El front-end está hecho en React, lo que me permitió sentirme bastante cómodo con este framework. La experiencia que adquirí fue sobre la importancia del trabajo en equipo, saber comunicar lo que quiero o lo que no me gusta, y también cómo dialogar con el cliente para entender sus necesidades y deseos.",
+        description2:"Primer proyecto como trabajo real, controla el stock y ventas de una bodega."
 
     },
     {
         id: 3,
-        title: "Pagina de alquiler de ropa",
+        title: "Web alquiler de ropa",
         images: ["cap1D.jpg","cap2D.jpg","cap3D.jpg"],
         urlGithub: "https://github.com/andrescarandino/Proyecto-Integrador-RopaDeDise-o.git",
         urlDemo: "https://github.com/andrescarandino/Proyecto-Integrador-RopaDeDise-o.git",
-        description: "En este proyecto no hay tantas imagenes del front porque es lo que menos trabaje , en este me segui encargando del back , pero es algo simple ,una aplicacion donde el usuario cuando se registra le llega un mail , luego puede realizar reservas de los productos disponibles ,tambien cuenta con un rol admin que hace todas las tareas de cargar producto,actualizar ,eliminar , cambiar rol.Lo que destaco de este proyecto es que se trabajo como si fuera un equipo de desarrollo ,ya que contamos con historias de usarios ,metodoliga scrum , trello ,etc."
-        ,description2:"Este fue el proyecto integrador que realice en el curso CTD"
+        description:"En este proyecto no hay tantas imágenes del front-end porque es en lo que menos trabajé. Me enfoqué principalmente en el back-end, pero es algo simple: una aplicación donde el usuario, al registrarse, recibe un correo electrónico y luego puede realizar reservas de los productos disponibles. También cuenta con un rol de administrador que realiza todas las tareas relacionadas con la gestión de productos, como cargar, actualizar, eliminar y cambiar roles. Lo que destaco de este proyecto es que trabajamos como un equipo de desarrollo, utilizando historias de usuarios, la metodología Scrum, Trello, entre otros recursos."   
+        ,description2:"Proyecto integrador realizado en el curso Certified tech developer."
     },
     {
         id: 4,
@@ -190,7 +189,7 @@ export const dataPortfolio = [
         images: ["imagesDiseño/cap1.jpg","imagesDiseño/cap2.jpg","imagesDiseño/cap3.jpg"],
         urlGithub: "https://github.com/GianSiccardi?tab=repositories",
         urlDemo: "https://github.com/GianSiccardi?tab=repositories",
-        description2:"Aca dejo el link de mi gitHub donde tengo mis primeros proyectos que me sirvieron de practica "
+        description2:"Link con mis primeros proyectos, por si quieren ver más            "
     },
     /* {
        id: 5,

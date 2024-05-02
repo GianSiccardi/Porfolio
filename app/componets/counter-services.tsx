@@ -15,7 +15,7 @@ const CounterServices = () => {
                         </p>
                         <p className="text-xs uppercase max-w-[100px]">
                             {text}<br></br>
-                            {pdfLink && <a href={pdfLink} target="_blank">Ver certificado</a>}</p>
+                            {pdfLink && <a href={pdfLink} target="_blank" className="text-secondary">Ver certificado</a>}</p>
                     </div>
                 </div>
             ))}
