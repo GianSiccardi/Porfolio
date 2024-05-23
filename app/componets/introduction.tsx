@@ -46,11 +46,11 @@ const Introduction = () => {
       Hola! Soy Gianfranco Siccardi de Mendoza, Argentina. En este portafolio les presento mi
 trayectoria y mis proyectos en detalle, he completado una serie de cursos de programación
 y actualmente soy estudiante de la carrera de Analista Programador en la Universidad
-Champagnat. Mi objetivo es especializarme en el lenguaje de Java y en un futuro me
+Champagnat. Mi objetivo es permanecer en una empresa especializandome y perfeccionando mis habilidades mientras termino mis estudios ,y en un futuro me
 gustaría liderar equipos para crear soluciones informáticas que aporten a la sociedad
       </p>
       <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
-        <a href="/cvGian.pdf" target="_blank" rel="noopener noreferrer" className="px-3 py-2 my-2 transition-all border-2 cursor-pointer text-md w-fit text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary">
+        <a href="/CVgian.pdf.doc" target="_blank" rel="noopener noreferrer" className="px-3 py-2 my-2 transition-all border-2 cursor-pointer text-md w-fit text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary">
          Ver CV
         </a>
         <p

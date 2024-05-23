@@ -71,14 +71,14 @@ export const dataAboutPage = [
         id: 2,
         title: "Udemy",
         subtitle: "Reforzando Conocimientos",
-        description: "Este curso, realizado simultáneamente con el CTD, fue una experiencia valiosa para reforzar mis conocimientos en Java. Aprendí sobre Servlets y Java EE, lo cual amplió mi comprensión de este lenguaje de programación",
+        description: "Este curso, realizado simultáneamente con el CTD, fue una experiencia valiosa para reforzar mis conocimientos en Java. Aprendí sobre Servlets y Java EE, lo cual amplió mi comprensión de este lenguaje de programación.Tambien fue una pequeña introduccion a Angular",
         date: "Ago 2022",
     },
     {
         id: 3,
         title: "Certified tech Developer",
         subtitle: "Entrada de lleno al mundo del desarrollo",
-        description: "Este curso representó una inmersión profunda en diversas ramas de la programación y proporcionó una experiencia cercana al entorno laboral. Al principio, revisé conceptos familiares y luego profundicé en ellos, obteniendo una comprensión más sólida de su funcionamiento. Exploré en profundidad la programación orientada a objetos (POO) y el framework Spring, así como bases de datos y desarrollo frontend, donde conocí tecnologías como React. También tuve la oportunidad de familiarizarme con herramientas de infraestructura, aunque mi experiencia en este ámbito es limitada. Docker fue una de las herramientas con las que me sentí más cómodo. Además, el curso abordó metodologías ágiles, que pude aplicar de manera efectiva en el proyecto integrador. ",
+        description: "Este curso representó una inmersión profunda en diversas ramas de la programación y proporcionó una experiencia cercana al entorno laboral. Al principio, revisé conceptos familiares y luego profundicé en ellos, obteniendo una comprensión más sólida de su funcionamiento. Exploré en profundidad la programación orientada a objetos (POO) y el framework Spring, así como bases de datos y desarrollo frontend, donde conocí tecnologías como React. También tuve la oportunidad de familiarizarme con herramientas de infraestructura, aunque mi experiencia en este ámbito es limitada. Docker fue una de las herramientas que tambien aprendi. Además, el curso abordó metodologías ágiles, que pude aplicar de manera efectiva en el proyecto integrador. ",
         date: "May 2022",
     },
 
@@ -87,7 +87,7 @@ export const dataAboutPage = [
         title: "Full Stack",
         subtitle: "Primer Contacto",
         date: "SEP 2021 ",
-        description: "Este curso marcó mi primera incursión en el mundo de la programación. Comenzamos con los fundamentos básicos, explorando los principios de la programación y adentrándonos en la lógica subyacente. A lo largo del curso, profundicé en conceptos de programación orientada a objetos (POO) con springy finalicé con un proyecto integrador, donde pude comprender la importancia de las habilidades blandas en el ámbito tecnológico."
+        description: "Este curso marcó mi primera incursión en el mundo de la programación. Comenzamos con los fundamentos básicos, explorando los principios de la programación y adentrándonos en la lógica subyacente. A lo largo del curso, profundicé en conceptos de programación orientada a objetos (POO) con spring.Tambien conoci el mundo del front , con html,javaScript y css Finalicé con un proyecto integrador, donde pude comprender la importancia de las habilidades blandas en el ámbito tecnológico."
     },
 
 
@@ -170,7 +170,7 @@ export const dataPortfolio = [
         images: ["cap1Bodega.jpg","cap2Bodega.jpg","cap3Bodega.jpg","bodega4.jpg","Bodega5.jpg"],
         urlGithub: "https://github.com/Tom09t/BodegaEscencia.git",
         urlDemo: "https://github.com/Tom09t/BodegaEscenciaReact.git",
-        description:"Este es mi proyecto más ambicioso y el que será utilizado en el mundo real: es el control de stock y ventas de una bodega. A la bodega ingresa un grupo que viene con una empresa de turismo, y la bodega también cuenta con dos negocios: el restaurante y la vinoteca. El sistema se encarga de controlar las ventas de cada grupo en cada negocio y luego genera un reporte del día. Hay un usuario administrador que se encarga de cargar stock, eliminar ventas y agregar empresas. A día de hoy, sigue en desarrollo, pero se puede apreciar lo robusta que es la aplicación, ya que cuenta con algoritmos complejos, validaciones y seguridad. El front-end está hecho en React, lo que me permitió sentirme bastante cómodo con este framework. La experiencia que adquirí fue sobre la importancia del trabajo en equipo, saber comunicar lo que quiero o lo que no me gusta, y también cómo dialogar con el cliente para entender sus necesidades y deseos.",
+        description:"Este es mi proyecto más ambicioso y el que será utilizado en el mundo real: es el control de stock y ventas de una bodega. A la bodega ingresa un grupo que viene con una empresa de turismo, y la bodega también cuenta con dos negocios: el restaurante y la vinoteca. El sistema se encarga de controlar las ventas de cada grupo en cada negocio y luego genera un reporte del día. Hay un usuario administrador que se encarga de cargar stock, eliminar ventas y agregar empresas. A día de hoy, sigue en desarrollo, pero se puede apreciar lo robusta que es la aplicación, ya que cuenta con algoritmos complejos, validaciones y seguridad. El front-end está hecho en React, lo que me permitió sentirme bastante cómodo con este framework y comprenderlo mas en profundidad. La experiencia que adquirí fue sobre la importancia del trabajo en equipo, saber comunicar lo que quiero o lo que no me gusta, y también cómo dialogar con el cliente para entender sus necesidades y deseos.",
         description2:"Primer proyecto como trabajo real, controla el stock y ventas de una bodega."
 
     },
