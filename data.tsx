@@ -195,7 +195,7 @@ export const dataPortfolio = [
      {
         id: 5,
         title: "Ecosistema de Microservices Eventos",
-        images: ["app-eventos.drawio.jpg"],
+        images: ["app-eventos.drawio.jpg","app-eventos2.jpg","app-eventos3.jpg"],
         description:"En este proyecto profundice mucho mas en la arquitecura de microservice , es un ecositema de gestor de eventos , con diferentes microservice con una funcion definida ,tambien generados con contenedores de docker.Tenemos un Api Gateway para el balanceo de carga , pero tambien se comunica con el servicio de autenticacion con Jwt, unas confirmado el usuario y sus roles , puede ingresar y hacer solicitudes.Un usuario puede comprar la entrada de un evento , ver la ubicacion de los mismo ,cancelar la compra, y ver el listado de eventos de lo cuales compro entrada ,con sus respectivas ubicaciones.El usuario admin tiene privilegios , como eliminar usuarios , crear eventos y asignarle ubicaciones, como tambien crearles.Este proyecto me permitio mejorar la logica sobre la comunicacion entre micro services , ya que por ejemplo si elimino una ubicacion , esta automaticamente se tiene que desasignar de un evento .",
         description2:"Gestor de Usuarios,Eventos y ubicaciones",
         urlGithub: "https://github.com/GianSiccardi/AppEventos",
@@ -204,7 +204,7 @@ export const dataPortfolio = [
     {
         id: 6,
         title: "Ecosistema de Microservices Ordenes",
-        images: ["flujo.png"],
+        images: ["flujo.png","flujo2.png","flujo3.png"],
         description:"Este ecosistema fue todo un desafio , me llevo a mi maxima exigencia a la hora de pensar una arquitecutura ,es un ecositema de microservices pero esta vez registrados en eureka, aunque pude explotar  la utilidad de docker , ya que las bases de datos, interfaces , kafka y algunas cosas mas , fueron imagenes de docker.El proyecto tambien tiene un Api gateway,con una configuracion sencilla con keycloak.Tenemos el microservice cliente ,orden,producto ,pago, y notificacion.En este proyecto fue mi primer acercamiento con kafka , que lo uso para la comuncacion entre el microservice notifiacion con el de pago y orden ,que a su vez una vez que la orden es exitosa , se envia una notifacion por correo al cliente.Me siento muy satisfecho con este proyecto , puede explotar la arquitectura de microservices , me queda mucho por aprender , pero con esto me siento con la confianza de poder encarar cosas un poco mas complejas , ",
         description2:"Gestor de Ordenes,Pagos y Notificaciones",
         urlGithub: "https://github.com/GianSiccardi/Microservices-compra",
