@@ -186,7 +186,7 @@ export const dataPortfolio = [
     {
         id: 4,
         title: "Ecositema de Microservice",
-        image: "/image-5.jpg",
+        images: ["/image-5.jpg"],
         urlGithub: "https://github.com/GianSiccardi/CursoUsuariosMicroService",
         urlDemo: "#!",
         description:"Este proyecto fue mi primer ecositema de microservice , es sencillo , pero pude entender la implementancion de microservicios en un entorno de kubernetes",

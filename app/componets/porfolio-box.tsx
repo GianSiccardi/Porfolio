@@ -7,13 +7,13 @@ import { useState } from "react";
 
 interface PortfolioBoxProps {
     data: {
-        id: number,
-        title: string
-        images: string[]
-        urlGithub: string
-        urlDemo: string
-        description?:string
-        description2?:string
+        id: number;
+        title: string;
+        images: string[];
+        urlGithub: string;
+        urlDemo: string;
+        description?:string;
+        description2?:string;
     }
 }
 
