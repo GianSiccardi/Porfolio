@@ -1,15 +1,6 @@
 import { useState ,useEffect} from "react";
 import styled from 'styled-components';
 
-
-type ModalProps = {
-  isOpen: boolean;
-  onClose: () => void;
-  images: string[];
-  description?:string;
-};
-
-
 const CarouselImg = styled.img`
   max-width: 1000px;
   width: 100%;
@@ -38,27 +29,30 @@ const CarouselButton = styled.button`
   padding: 8px;
   margin: 0 5px;
 `;
+type ModalProps = {
+  isOpen: boolean;
+  onClose: () => void;
+  images: string[];
+  description?: string;
+};
 
+const ModalCarussel: React.FC<ModalProps> = ({ isOpen, onClose, images = [], description }) => {
+  const [selectedIndex, setSetSelectedIndex] = useState(0);
+  const [selectImage, setSelectImage] = useState(images.length > 0 ? images[0] : "");
 
-const ModalCarussel: React.FC<ModalProps> = ({ isOpen, onClose, images,description }) => {
+  const [loaded, setLoaded] = useState(false);
 
-const [selectedIndex,setSetSelectedIndex]=useState(0);
-const [selectImage,setSelectImage]=useState(images[0]);
-const[loaded,setLoaded]=useState(false)
+  const selectNewImage = (index: number, images: string[], next = true) => {
+    setLoaded(false);
+    setTimeout(() => {
+      const condition = next ? selectedIndex < images.length - 1 : selectedIndex > 0;
+      const nextIndex = next ? (condition ? selectedIndex + 1 : 0) : (condition ? selectedIndex - 1 : images.length - 1);
 
-const selectNewImage = (index: number, images: string[], next = true) => {
-   setLoaded(false);
-   setTimeout(()=>{
-    const condition = next ? selectedIndex < images.length-1 : selectedIndex > 0;
-    const nextIndex = next ? (condition ? selectedIndex + 1 : 0) : (condition ? selectedIndex - 1 : images.length - 1);
+      setSetSelectedIndex(nextIndex);
+      setSelectImage(images[nextIndex]);
 
-    setSetSelectedIndex(nextIndex); // Aquí debes actualizar el estado selectedIndex
-    setSelectImage(images[nextIndex]); // Aquí debes actualizar el estado selectImage
-
-   },500); 
-  
-}
-
+    }, 500);
+  }
 const previous = () => {
     selectNewImage(selectedIndex, images, false); // Llama a selectNewImage con el parámetro next establecido en false
 }

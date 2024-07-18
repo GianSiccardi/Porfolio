@@ -50,7 +50,7 @@ Champagnat. Mi objetivo es permanecer en una empresa especializandome y perfecci
 gustaría liderar equipos para crear soluciones informáticas que aporten a la sociedad
       </p>
       <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
-        <a href="/CVgian.pdf.doc" target="_blank" rel="noopener noreferrer" className="px-3 py-2 my-2 transition-all border-2 cursor-pointer text-md w-fit text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary">
+        <a href="/CV-gianfranco-siccardi.doc" target="_blank" rel="noopener noreferrer" className="px-3 py-2 my-2 transition-all border-2 cursor-pointer text-md w-fit text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary">
          Ver CV
         </a>
         <p

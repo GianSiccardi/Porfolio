@@ -62,7 +62,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
         </label>
 
         <div className='border-2 border-gray-300 rounded-lg text-secondary px-4 py-2 max-w-[300px]'>
-          <span>+54 9 25612635899</span>
+          <span>+54 9 2612635899</span>
         </div>
         <Copy className='mr-2 text-secondary cursor-pointer hover:text-gray-700'
           onClick={() => copyToClipboard('+54 9 25612635899')}

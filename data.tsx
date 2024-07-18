@@ -192,24 +192,37 @@ export const dataPortfolio = [
         description:"Este proyecto fue mi primer ecositema de microservice , es sencillo , pero pude entender la implementancion de microservicios en un entorno de kubernetes",
         description2:"Ecositema de microservice con docker y kubernetes"
      },
-    {
+     {
         id: 5,
+        title: "Ecosistema de Microservices Eventos",
+        images: ["app-eventos.drawio.jpg"],
+        description:"En este proyecto profundice mucho mas en la arquitecura de microservice , es un ecositema de gestor de eventos , con diferentes microservice con una funcion definida ,tambien generados con contenedores de docker.Tenemos un Api Gateway para el balanceo de carga , pero tambien se comunica con el servicio de autenticacion con Jwt, unas confirmado el usuario y sus roles , puede ingresar y hacer solicitudes.Un usuario puede comprar la entrada de un evento , ver la ubicacion de los mismo ,cancelar la compra, y ver el listado de eventos de lo cuales compro entrada ,con sus respectivas ubicaciones.El usuario admin tiene privilegios , como eliminar usuarios , crear eventos y asignarle ubicaciones, como tambien crearles.Este proyecto me permitio mejorar la logica sobre la comunicacion entre micro services , ya que por ejemplo si elimino una ubicacion , esta automaticamente se tiene que desasignar de un evento .",
+        description2:"Gestor de Usuarios,Eventos y ubicaciones",
+        urlGithub: "https://github.com/GianSiccardi/AppEventos",
+        urlDemo: "#!",
+    },
+    {
+        id: 6,
+        title: "Ecosistema de Microservices Ordenes",
+        images: ["flujo.png"],
+        description:"Este ecosistema fue todo un desafio , me llevo a mi maxima exigencia a la hora de pensar una arquitecutura ,es un ecositema de microservices pero esta vez registrados en eureka, aunque pude explotar  la utilidad de docker , ya que las bases de datos, interfaces , kafka y algunas cosas mas , fueron imagenes de docker.El proyecto tambien tiene un Api gateway,con una configuracion sencilla con keycloak.Tenemos el microservice cliente ,orden,producto ,pago, y notificacion.En este proyecto fue mi primer acercamiento con kafka , que lo uso para la comuncacion entre el microservice notifiacion con el de pago y orden ,que a su vez una vez que la orden es exitosa , se envia una notifacion por correo al cliente.Me siento muy satisfecho con este proyecto , puede explotar la arquitectura de microservices , me queda mucho por aprender , pero con esto me siento con la confianza de poder encarar cosas un poco mas complejas , ",
+        description2:"Gestor de Ordenes,Pagos y Notificaciones",
+        urlGithub: "https://github.com/GianSiccardi/Microservices-compra",
+        urlDemo: "#!",
+        
+    },
+    {
+        id: 7,
         title: "GitHub",
-        images: ["imagesDiseño/cap1.jpg","imagesDiseño/cap2.jpg","imagesDiseño/cap3.jpg"],
+        images: [],
         urlGithub: "https://github.com/GianSiccardi?tab=repositories",
         urlDemo: "https://github.com/GianSiccardi?tab=repositories",
         description2:"Link con mis primeros proyectos, por si quieren ver más            "
     },
  
-  /* {
-       id: 6,
-       title: "Web Dinámica",
-       image: "/image-6.jpg",
-       urlGithub: "#!",
-       urlDemo: "#!",
-   },
+  /*
    {
-       id: 7,
+       id: ,
        title: "Dark Web ",
        image: "/image-7.jpg",
        urlGithub: "#!",
@@ -224,47 +237,4 @@ export const dataPortfolio = [
    }*/
 ];
 
-export const dataTestimonials = [
-    {
-        id: 1,
-        name: "George Snow",
-        description:
-            "¡Increíble plataforma! Los testimonios aquí son genuinos y me han ayudado a tomar decisiones informadas. ¡Altamente recomendado!",
-        imageUrl: "/profile1.png",
-    },
-    {
-        id: 2,
-        name: "Juan Pérez",
-        description:
-            "Me encanta la variedad de testimonios disponibles en esta página. Es inspirador ver cómo otras personas han superado desafíos similares a los míos. ¡Gracias por esta invaluable fuente de motivación!",
-        imageUrl: "/profile2.png",
-    },
-    {
-        id: 3,
-        name: "María García",
-        description:
-            "Excelente recurso para obtener opiniones auténticas sobre diferentes productos y servicios. Me ha ayudado mucho en mis compras en línea. ¡Bravo por este sitio!",
-        imageUrl: "/profile3.png",
-    },
-    {
-        id: 4,
-        name: "Laura Snow",
-        description:
-            "¡Qué descubrimiento tan fantástico! Los testimonios aquí son honestos y detallados. Me siento más seguro al tomar decisiones después de leer las experiencias compartidas por otros usuarios.",
-        imageUrl: "/profile4.png",
-    },
-    {
-        id: 5,
-        name: "Carlos Sánchez",
-        description:
-            "Una joya en la web. Los testimonios son fáciles de encontrar y están bien organizados. ¡Definitivamente mi destino número uno cuando necesito referencias confiables!",
-        imageUrl: "/profile5.png",
-    },
-    {
-        id: 6,
-        name: "Antonio Martínez",
-        description:
-            "¡Fantástico recurso para aquellos que buscan validación antes de tomar decisiones importantes! Los testimonios aquí son veraces y realmente útiles. ¡Gracias por simplificar mi proceso de toma de decisiones!",
-        imageUrl: "/profile6.png",
-    },
-];
+
