@@ -157,32 +157,37 @@ export const serviceData = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Sistema de Examen",
-        images: [ "cap1.jpg", "cap2.jpg", "cap3.jpg", "cap4.jpg", "cap5.jpg",],
-        urlGithub: "https://github.com/GianSiccardi/ProyectoExamenAngularJava.git",
-        urlDemo: "https://github.com/GianSiccardi/sistema-examen-front.git",
-        description: "Este proyecto lo hice cuando estaba decidiendo qué framework front-end quería aprender para complementarlo con Java. Solidifiqué mis bases en la creación de una API. Es sencilla y no tiene excepciones, pero el armado está correcto. Es un sistema donde tengo usuarios normales y administradores; este último puede crear el examen, especificar la categoría, las preguntas y las respuestas correctas, además de actualizar y eliminar todas estas funciones. El usuario común puede seleccionar el exámen que esté habilitado y responderlo en tiempo real."
-        ,description2:"Proyecto con java y angular para crear exámenes y responderlos en tiempo real."
-    },
+        title: "App Treading",
+        images: ["treading1.png","treading2.png","treading3.png","treading4.png","treading5.png","treading6.png","treading7.png","treading8.png","treading9.png","treading10.png","treading11.png","diagramaTreading"],
+        description: "Este es mi proyecto mas amibicioso ,se trata de una simulacion de un exchange.Use java  para desarrollar una Api Rest robusta con Spring y SpringSecurity , para el front use React con ui.shadcn para reutilizacion de componentes y redux para manejo de estado.Para la base de datos use Mysql.Utlizo la API coingecko para manipular informacion de criptomonedas , la de STRIPE para hacer la simulacion del recargo de saldo a las billeteras.Se puede simular compra y ventas de criptos, transferencias entre billeteras, colocar detalle de cuenta bancaria para realizar los retiros , hay una seccion de portafolio para ver las criptos compradas , seccion de guardados y de actividad.Es un proyecto muy grande del cual estoy muyr orgulloso ",
+        description2:"App Simulator Exchange , simula venta y compra de criptomonedas",
+        urlGithub: "https://github.com/GianSiccardi/ApiAppTreading",
+        urlDemo: "https://github.com/GianSiccardi/AppTreadingFront",
+    }
+    ,
+    
     {
         id: 2,
+        title: "Ecosistema de Microservices Ordenes",
+        images: ["flujo.png","flujo2.png","flujo3.png"],
+        description:"Este ecosistema fue todo un desafio , me llevo a mi maxima exigencia a la hora de pensar una arquitecutura ,es un ecositema de microservices pero esta vez registrados en eureka, aunque pude explotar  la utilidad de docker , ya que las bases de datos, interfaces , kafka y algunas cosas mas , fueron imagenes de docker.El proyecto tambien tiene un Api gateway,con una configuracion sencilla con keycloak.Tenemos el microservice cliente ,orden,producto ,pago, y notificacion.En este proyecto fue mi primer acercamiento con kafka , que lo uso para la comuncacion entre el microservice notifiacion con el de pago y orden ,que a su vez una vez que la orden es exitosa , se envia una notifacion por correo al cliente.Me siento muy satisfecho con este proyecto , puede explotar la arquitectura de microservices , me queda mucho por aprender , pero con esto me siento con la confianza de poder encarar cosas un poco mas complejas , ",
+        description2:"Gestor de Ordenes,Pagos y Notificaciones",
+        urlGithub: "https://github.com/GianSiccardi/Microservices-compra",
+        urlDemo: "#!",
+        
+    }
+    ,
+    {
+        id: 3,
         title: "Sistema para Bodega",
         images: ["cap1Bodega.jpg","cap2Bodega.jpg","cap3Bodega.jpg","bodega4.jpg","Bodega5.jpg"],
         urlGithub: "https://github.com/Tom09t/BodegaEscencia.git",
         urlDemo: "https://github.com/Tom09t/BodegaEscenciaReact.git",
-        description:"Este es mi proyecto más ambicioso y el que será utilizado en el mundo real: es el control de stock y ventas de una bodega. A la bodega ingresa un grupo que viene con una empresa de turismo, y la bodega también cuenta con dos negocios: el restaurante y la vinoteca. El sistema se encarga de controlar las ventas de cada grupo en cada negocio y luego genera un reporte del día. Hay un usuario administrador que se encarga de cargar stock, eliminar ventas y agregar empresas. A día de hoy, sigue en desarrollo, pero se puede apreciar lo robusta que es la aplicación, ya que cuenta con algoritmos complejos, validaciones y seguridad. El front-end está hecho en React, lo que me permitió sentirme bastante cómodo con este framework y comprenderlo mas en profundidad. La experiencia que adquirí fue sobre la importancia del trabajo en equipo, saber comunicar lo que quiero o lo que no me gusta, y también cómo dialogar con el cliente para entender sus necesidades y deseos.",
+        description:"Este es uno de los primeros proyectos grandes: es im control de stock y ventas de una bodega. A la bodega ingresa un grupo que viene con una empresa de turismo, y la bodega también cuenta con dos negocios: el restaurante y la vinoteca. El sistema se encarga de controlar las ventas de cada grupo en cada negocio y luego genera un reporte del día. Hay un usuario administrador que se encarga de cargar stock, eliminar ventas y agregar empresas. A día de hoy, sigue en desarrollo, pero se puede apreciar lo robusta que es la aplicación, ya que cuenta con algoritmos complejos, validaciones y seguridad. El front-end está hecho en React, lo que me permitió sentirme bastante cómodo con este framework y comprenderlo mas en profundidad. La experiencia que adquirí fue sobre la importancia del trabajo en equipo, saber comunicar lo que quiero o lo que no me gusta, y también cómo dialogar con el cliente para entender sus necesidades y deseos.",
         description2:"Primer proyecto como trabajo real, controla el stock y ventas de una bodega."
 
-    },
-    {
-        id: 3,
-        title: "Web alquiler de ropa",
-        images: ["cap1D.jpg","cap2D.jpg","cap3D.jpg"],
-        urlGithub: "https://github.com/andrescarandino/Proyecto-Integrador-RopaDeDise-o.git",
-        urlDemo: "https://github.com/andrescarandino/Proyecto-Integrador-RopaDeDise-o.git",
-        description:"En este proyecto no hay tantas imágenes del front-end porque es en lo que menos trabajé. Me enfoqué principalmente en el back-end, pero es algo simple: una aplicación donde el usuario, al registrarse, recibe un correo electrónico y luego puede realizar reservas de los productos disponibles. También cuenta con un rol de administrador que realiza todas las tareas relacionadas con la gestión de productos, como cargar, actualizar, eliminar y cambiar roles. Lo que destaco de este proyecto es que trabajamos como un equipo de desarrollo, utilizando historias de usuarios, la metodología Scrum, Trello, entre otros recursos."   
-        ,description2:"Proyecto integrador realizado en el curso Certified tech developer."
-    },
+    }
+   ,
     {
         id: 4,
         title: "Ecositema de Microservice",
@@ -203,16 +208,26 @@ export const dataPortfolio = [
     },
     {
         id: 6,
-        title: "Ecosistema de Microservices Ordenes",
-        images: ["flujo.png","flujo2.png","flujo3.png"],
-        description:"Este ecosistema fue todo un desafio , me llevo a mi maxima exigencia a la hora de pensar una arquitecutura ,es un ecositema de microservices pero esta vez registrados en eureka, aunque pude explotar  la utilidad de docker , ya que las bases de datos, interfaces , kafka y algunas cosas mas , fueron imagenes de docker.El proyecto tambien tiene un Api gateway,con una configuracion sencilla con keycloak.Tenemos el microservice cliente ,orden,producto ,pago, y notificacion.En este proyecto fue mi primer acercamiento con kafka , que lo uso para la comuncacion entre el microservice notifiacion con el de pago y orden ,que a su vez una vez que la orden es exitosa , se envia una notifacion por correo al cliente.Me siento muy satisfecho con este proyecto , puede explotar la arquitectura de microservices , me queda mucho por aprender , pero con esto me siento con la confianza de poder encarar cosas un poco mas complejas , ",
-        description2:"Gestor de Ordenes,Pagos y Notificaciones",
-        urlGithub: "https://github.com/GianSiccardi/Microservices-compra",
-        urlDemo: "#!",
-        
+        title: "Web alquiler de ropa",
+        images: ["cap1D.jpg","cap2D.jpg","cap3D.jpg"],
+        urlGithub: "https://github.com/andrescarandino/Proyecto-Integrador-RopaDeDise-o.git",
+        urlDemo: "https://github.com/andrescarandino/Proyecto-Integrador-RopaDeDise-o.git",
+        description:"En este proyecto no hay tantas imágenes del front-end porque es en lo que menos trabajé. Me enfoqué principalmente en el back-end, pero es algo simple: una aplicación donde el usuario, al registrarse, recibe un correo electrónico y luego puede realizar reservas de los productos disponibles. También cuenta con un rol de administrador que realiza todas las tareas relacionadas con la gestión de productos, como cargar, actualizar, eliminar y cambiar roles. Lo que destaco de este proyecto es que trabajamos como un equipo de desarrollo, utilizando historias de usuarios, la metodología Scrum, Trello, entre otros recursos."   
+        ,description2:"Proyecto integrador realizado en el curso Certified tech developer."
     },
     {
         id: 7,
+        title: "Sistema de Examen",
+        images: [ "cap1.jpg", "cap2.jpg", "cap3.jpg", "cap4.jpg", "cap5.jpg",],
+        urlGithub: "https://github.com/GianSiccardi/ProyectoExamenAngularJava.git",
+        urlDemo: "https://github.com/GianSiccardi/sistema-examen-front.git",
+        description: "Este proyecto lo hice cuando estaba decidiendo qué framework front-end quería aprender para complementarlo con Java. Solidifiqué mis bases en la creación de una API. Es sencilla y no tiene excepciones, pero el armado está correcto. Es un sistema donde tengo usuarios normales y administradores; este último puede crear el examen, especificar la categoría, las preguntas y las respuestas correctas, además de actualizar y eliminar todas estas funciones. El usuario común puede seleccionar el exámen que esté habilitado y responderlo en tiempo real."
+        ,description2:"Proyecto con java y angular para crear exámenes y responderlos en tiempo real."
+    }
+
+    ,
+    {
+        id: 8,
         title: "GitHub",
         images: [],
         urlGithub: "https://github.com/GianSiccardi?tab=repositories",
