@@ -158,7 +158,7 @@ export const dataPortfolio = [
     {
         id: 1,
         title: "App Treading",
-        images: ["treading1.png","treading2.png","treading3.png","treading4.png","treading5.png","treading6.png","treading7.png","treading8.png","treading9.png","treading10.png","treading11.png","diagramaTreading"],
+        images: ["treading1.png","treading2.png","treading3.png","treading4.png","treading5.png","treading6.png","treading7.png","treading8.png","treading9.png","treading10.png","treading11.png","diagramaTreading.jpeg"],
         description: "Este es mi proyecto mas amibicioso ,se trata de una simulacion de un exchange.Use java  para desarrollar una Api Rest robusta con Spring y SpringSecurity , para el front use React con ui.shadcn para reutilizacion de componentes y redux para manejo de estado.Para la base de datos use Mysql.Utlizo la API coingecko para manipular informacion de criptomonedas , la de STRIPE para hacer la simulacion del recargo de saldo a las billeteras.Se puede simular compra y ventas de criptos, transferencias entre billeteras, colocar detalle de cuenta bancaria para realizar los retiros , hay una seccion de portafolio para ver las criptos compradas , seccion de guardados y de actividad.Es un proyecto muy grande del cual estoy muyr orgulloso ",
         description2:"App Simulator Exchange , simula venta y compra de criptomonedas",
         urlGithub: "https://github.com/GianSiccardi/ApiAppTreading",

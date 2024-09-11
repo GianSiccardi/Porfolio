@@ -27,7 +27,7 @@ const Introduction = () => {
   <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2">
     <div className="flex justify-center">
     <div className="w-50 h-50 rounded-full border-2 border-secondary overflow-hidden animate-bounce">
-  <Image src="/fotomia.jpeg" priority width="200" height="200" alt="Avatar" />
+  <Image src="/fotomia2.jpeg" priority width="200" height="200" alt="Avatar" />
 </div>
 
     </div>
@@ -35,7 +35,7 @@ const Introduction = () => {
       <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10">
         Mis habilidades son <br />
         <TypeAnimation
-          sequence={['JAVA ', 1000, 'React', 1000, 'mysql', 1000, 'docker', 1000]}
+          sequence={['JAVA ', 1000, 'Spring',1000,'React', 1000, 'Mysql', 1000, 'Docker', 1000 ,]}
           wrapper="span"
           speed={50}
           repeat={Infinity}
